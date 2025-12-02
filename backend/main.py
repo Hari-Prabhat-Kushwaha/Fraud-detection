@@ -174,6 +174,11 @@ async def predict(transaction: TransactionInput):
         # Convert to DataFrame
         transaction_dict = transaction.model_dump()
         df = pd.DataFrame([transaction_dict])
+
+        # Map API 'amount' field to standardized 'amount_(inr)' feature
+        # used throughout data processing and model training
+        if 'amount' in df.columns and 'amount_(inr)' not in df.columns:
+            df['amount_(inr)'] = df['amount']
         
         # Apply rule-based detection
         rule_result = rule_engine.apply_rules(df)
