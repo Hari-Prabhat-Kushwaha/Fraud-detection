@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Model files
+backend/saved_model/
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
