@@ -1,10 +1,10 @@
 # UPI Fraud Detection System - Project Overview
 
-## 📋 Executive Summary
+##  Executive Summary
 
 This project implements a comprehensive fraud detection system for UPI (Unified Payments Interface) transactions using a hybrid approach combining rule-based detection and machine learning. The system processes transaction data, applies sophisticated fraud detection rules, trains an XGBoost model, and provides real-time fraud predictions through an intuitive web interface.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1. **Data Processing**: Load and clean UPI transaction data from CSV files
 2. **Rule-Based Detection**: Implement hybrid fraud detection rules based on transaction patterns
@@ -12,7 +12,7 @@ This project implements a comprehensive fraud detection system for UPI (Unified 
 4. **Real-time Prediction**: Provide instant fraud detection for individual transactions
 5. **Visualization**: Display comprehensive statistics and model performance metrics
 
-## 🏗️ System Components
+##  System Components
 
 ### 1. Backend (FastAPI)
 
@@ -106,7 +106,7 @@ This project implements a comprehensive fraud detection system for UPI (Unified 
 - Display triggered rules
 - Show detection scores
 
-## 📊 Data Flow
+##  Data Flow
 
 ```
 1. CSV File (upi_transactions_2024.csv)
@@ -124,7 +124,7 @@ This project implements a comprehensive fraud detection system for UPI (Unified 
 7. Display Results (React Frontend)
 ```
 
-## 🔍 Fraud Detection Methodology
+##  Fraud Detection Methodology
 
 ### Hybrid Approach
 
@@ -149,7 +149,7 @@ The system uses a two-stage fraud detection approach:
 - Lists all triggered rules
 - Shows both detection scores
 
-## 📈 Model Performance
+##  Model Performance
 
 ### Evaluation Metrics
 
@@ -166,7 +166,7 @@ The system uses a two-stage fraud detection approach:
 - F1 Score: 85-91%
 - ROC AUC: 90-95%
 
-## 🎨 User Interface Features
+##  User Interface Features
 
 ### Modern Design
 - Dark theme with gradient backgrounds
@@ -183,7 +183,7 @@ The system uses a two-stage fraud detection approach:
 - Clear error messages
 - Loading states
 
-## 🔒 Data Processing Pipeline
+##  Data Processing Pipeline
 
 ### 1. Data Loading
 - Read CSV file
@@ -208,7 +208,7 @@ The system uses a two-stage fraud detection approach:
 - Feature importance analysis
 - Cross-validation
 
-## 📦 Deliverables
+##  Deliverables
 
 ### Code Files
 - ✅ Backend API (4 Python files)
@@ -231,7 +231,7 @@ The system uses a two-stage fraud detection approach:
 - ✅ Performance metrics
 - ✅ Visualization charts
 
-## 🚀 Deployment Considerations
+##  Deployment Considerations
 
 ### Development
 - Backend: `http://localhost:8000`
@@ -248,7 +248,7 @@ The system uses a two-stage fraud detection approach:
 - Use database for data storage
 - Implement logging and monitoring
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 
@@ -259,7 +259,7 @@ This project demonstrates:
 5. **UI/UX Design**: Modern, responsive, user-friendly interface
 6. **Software Engineering**: Code organization, documentation, testing
 
-## 📊 Dataset Information
+##  Dataset Information
 
 **File**: `upi_transactions_2024.csv`
 
@@ -275,7 +275,7 @@ This project demonstrates:
 - Time features (hour, day, weekend)
 - Fraud label (ground truth)
 
-## 🔧 Technology Stack
+##  Technology Stack
 
 ### Backend
 - **FastAPI**: Modern Python web framework
@@ -294,7 +294,7 @@ This project demonstrates:
 - **Lucide React**: Icons
 - **React Hot Toast**: Notifications
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 1. **Advanced Features**
    - Real-time transaction streaming
@@ -328,7 +328,7 @@ This project demonstrates:
    - Monitoring and alerting
    - A/B testing framework
 
-## 📝 Conclusion
+##  Conclusion
 
 This UPI Fraud Detection System successfully combines traditional rule-based approaches with modern machine learning techniques to provide accurate, interpretable, and real-time fraud detection. The system is production-ready for demonstration purposes and can be extended with additional features for real-world deployment.
 

@@ -2,7 +2,7 @@
 
 A comprehensive fraud detection system for UPI (Unified Payments Interface) transactions using hybrid rule-based and machine learning approaches. Built with React frontend and FastAPI backend.
 
-## 🌟 Features
+##  Features
 
 - **Data Management**: Load and preprocess UPI transaction data from CSV
 - **Data Cleaning**: Automated data cleaning with handling of missing values, duplicates, and outliers
@@ -13,7 +13,7 @@ A comprehensive fraud detection system for UPI (Unified Payments Interface) tran
 - **Interactive Dashboard**: Comprehensive visualization of statistics and model performance
 - **Modern UI**: Beautiful, responsive interface built with React and TailwindCSS
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [System Architecture](#system-architecture)
 - [Prerequisites](#prerequisites)
@@ -25,7 +25,7 @@ A comprehensive fraud detection system for UPI (Unified Payments Interface) tran
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐
@@ -48,7 +48,7 @@ A comprehensive fraud detection system for UPI (Unified Payments Interface) tran
 └──────┘  └──────┘
 ```
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -56,7 +56,7 @@ Before you begin, ensure you have the following installed:
 - **Node.js 16+** and npm - [Download Node.js](https://nodejs.org/)
 - **Git** (optional) - [Download Git](https://git-scm.com/)
 
-## 📦 Installation
+##  Installation
 
 ### Quick Setup (Windows)
 
@@ -112,7 +112,7 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Starting the Application
 
@@ -172,7 +172,7 @@ Before you begin, ensure you have the following installed:
    - Analyze fraud distribution
    - Monitor model performance metrics
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mba project upi/
@@ -205,7 +205,7 @@ mba project upi/
 └── README.md                   # This file
 ```
 
-## 🔍 Fraud Detection Rules
+##  Fraud Detection Rules
 
 The system implements 10 sophisticated fraud detection rules:
 
@@ -241,7 +241,7 @@ The system implements 10 sophisticated fraud detection rules:
 
 **Fraud Threshold**: Transactions with a combined rule score ≥ 0.4 are flagged as fraudulent.
 
-## 📡 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -363,7 +363,7 @@ GET /health
 ```
 Returns API health status.
 
-## 🎨 Technologies Used
+##  Technologies Used
 
 ### Backend
 - **FastAPI** - Modern, fast web framework for building APIs
@@ -382,7 +382,7 @@ Returns API health status.
 - **Lucide React** - Icon library
 - **React Hot Toast** - Toast notifications
 
-## 📊 Dataset
+##  Dataset
 
 The system uses `upi_transactions_2024.csv` with the following features:
 
@@ -404,7 +404,7 @@ The system uses `upi_transactions_2024.csv` with the following features:
 - **day_of_week**: Day of the week
 - **is_weekend**: 0 or 1
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - This is a demonstration project for educational purposes
 - In production, implement proper authentication and authorization
@@ -413,7 +413,7 @@ The system uses `upi_transactions_2024.csv` with the following features:
 - Implement rate limiting to prevent abuse
 - Use environment variables for configuration
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Issues
 
@@ -453,7 +453,7 @@ If you encounter CORS errors, ensure:
 - Frontend is running on `http://localhost:3000`
 - CORS middleware is properly configured in `backend/main.py`
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 Expected model performance (may vary based on data):
 - **Accuracy**: 90-95%
@@ -462,7 +462,7 @@ Expected model performance (may vary based on data):
 - **F1 Score**: 85-91%
 - **ROC AUC**: 90-95%
 
-## 🤝 Contributing
+##  Contributing
 
 This is an educational project. Feel free to:
 - Report bugs
@@ -471,15 +471,15 @@ This is an educational project. Feel free to:
 - Enhance fraud detection rules
 - Optimize model performance
 
-## 📝 License
+##  License
 
 This project is created for educational purposes as part of an MBA project.
 
-## 👨‍💻 Author
+##  Author
 
 Created as part of MBA Project - UPI Fraud Detection System
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - FastAPI documentation and community
 - React and Vite communities
@@ -487,7 +487,7 @@ Created as part of MBA Project - UPI Fraud Detection System
 - TailwindCSS team
 - All open-source contributors
 
-## 📞 Support
+##  Support
 
 For issues or questions:
 1. Check the Troubleshooting section
@@ -497,4 +497,4 @@ For issues or questions:
 
 ---
 
-**Happy Fraud Detection! 🛡️**
+**Happy Fraud Detection! **
